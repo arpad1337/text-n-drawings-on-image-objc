@@ -1,0 +1,8 @@
+#import <UIKit/UIKit.h>
+
+@interface PresetTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
+
+-(void)configureCell:(UIImage*)filteredImage withLabel:(NSString*)label andAttributes:(NSDictionary*)attr;
+
+@end
